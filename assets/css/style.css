@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+body{
+    font-family:'Caveat' ;
+    background-color: #fac4edde;
+    display: grid;
+    place-content: center;
+    
+}
+.box-note{
+    width: 1100px;
+    margin: auto;
+    max-width: 100%;
+}
+h1{
+    font-weight:700 ;
+}
+#Add-btn,.remove-btn {
+    background-color: rgb(255, 122, 209);
+}
+input,textarea,button{
+    border-radius: 5px;
+}
+.item{
+    display: flex;
+    align-items: center;
+    border: 2px solid #000;
+    border-radius:5px ;
+   margin-bottom:10px;
+   width: 100%;
+}
+
